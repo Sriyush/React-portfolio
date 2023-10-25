@@ -21,7 +21,9 @@ function App() {
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    document.title = "Ayush | Portfolio";
+    const timer = setTimeout(() => 
+    {
       upadateLoad(false);
     }, 1200);
 

@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Todlearn"
+              description="🌟 TodLearn is more than just an app; it's an adventure for toddlers to learn basic math and English through exciting quizzes and unleash their creativity with the Scribble Board. Your feedback powers our journey, and we use Flutter, Dart, and Firebase Firestore to make it happen. Join the TodLearn universe and watch your toddler soar! 🚀🌟"
+              ghLink="https://github.com/Sriyush/TodLearn.git"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Foodie"
+              description="Foodie swings onto the scene as your ultimate online food ordering ally, empowering you to craft the perfect meal from a smorgasbord of global flavors. Just like Spider-Man weaving his web, you can customize burgers, pizzas, and more to create a meal that suits your every craving. For first-time users, Firebase Phone Authentication ensures a quick and secure sign-up, and once you're in, accessing your culinary dreams is as effortless as Spidey's wall-crawling. Foodie brings together diverse cuisines from around the world, just as Spider-Man battles various villains. From sizzling Mexican to comforting Italian, Foodie has it all covered. Your input is our greatest web-slinging tool! With our Feedback feature, you can help us fine-tune Foodie to perfection. Flutter and Dart ensure a smooth, user-friendly experience, akin to Spider-Man's graceful moves through the city. Download Foodie now, embrace your inner culinary superhero, and let your taste buds embark on a thrilling adventure! 🦸‍♀️🍽️."
+              ghLink="https://github.com/Sriyush/Foddie-flutterapp.git"
             />
           </Col>
 
@@ -47,44 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="VideoFam"
+              description="Your ultimate online video platform, where you effortlessly share your stories and explore others' tales, thanks to Flutter and Dart's smooth interface. Just like Spider-Man web-slinging through the city, uploading videos is a breeze. Discover captivating content, searching by title, and engage anonymously, adding an extra layer of privacy. Behind the scenes, Firebase powers VideoFam, storing videos securely in Firebase Storage, while Firestore Firebase meticulously organizes video details. Our dynamic comment system, fueled by Firebase Realtime Database, keeps conversations flowing. VideoFam, like Spider-Man's web, extends your abilities to connect with a global community of content creators. Embark on an exhilarating journey through the world of videos—download VideoFam now! 🦸‍♀️📺."
+              ghLink="https://github.com/Sriyush/VideoFam-Flutter"
             />
           </Col>
         </Row>
